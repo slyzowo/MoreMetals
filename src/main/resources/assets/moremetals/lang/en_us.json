@@ -1,5 +1,18 @@
 {
+  "item.moremetals.aluminium_ingot": "Aluminium Ingot",
+  "item.moremetals.aluminium_nugget": "Aluminium Nugget",
   "item.moremetals.brass_ingot": "Brass Ingot",
+  "item.moremetals.brass_nugget": "Brass Nugget",
   "item.moremetals.bronze_ingot": "Bronze Ingot",
-  "item.moremetals.purple_gold_ingot": "Purple Gold Ingot"
+  "item.moremetals.bronze_nugget": "Bronze Nugget",
+  "item.moremetals.steel_ingot": "Steel Ingot",
+  "item.moremetals.steel_nugget": "Steel Nugget",
+  "item.moremetals.tin_ingot": "Tin Ingot",
+  "item.moremetals.tin_nugget": "Tin Nugget",
+  "item.moremetals.titanium_ingot": "Titanium Ingot",
+  "item.moremetals.titanium_nugget": "Titanium Nugget",
+  "item.moremetals.purple_gold_ingot": "Purple Gold Ingot",
+  "item.moremetals.purple_gold_nugget": "Purple Gold Nugget",
+  "item.moremetals.zinc_ingot": "Zinc Ingot",
+  "item.moremetals.zinc_nugget": "Zinc Nugget"
 }
