@@ -26,6 +26,36 @@ public class ModBlocks {
                     .requiresTool()
                     .sounds(BlockSoundGroup.METAL)
             ));
+    public static final Block BRONZE_BLOCK = registerBlock("bronze_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+            ));
+    public static final Block PURPLE_GOLD_BLOCK = registerBlock("purple_gold_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+            ));
+    public static final Block TIN_BLOCK = registerBlock("tin_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+            ));
+    public static final Block TITANIUM_BLOCK = registerBlock("titanium_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+            ));
+    public static final Block ZINC_BLOCK = registerBlock("zinc_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+            ));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
