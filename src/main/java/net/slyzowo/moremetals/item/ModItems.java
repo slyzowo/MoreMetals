@@ -11,6 +11,7 @@ import net.slyzowo.moremetals.Moremetals;
 public class ModItems {
 
 
+    public static final Item RAW_ALUMINIUM = registerItem("raw_aluminium", new Item(new Item.Settings()));
     public static final Item ALUMINIUM_INGOT = registerItem("aluminium_ingot", new Item(new Item.Settings()));
     public static final Item ALUMINIUM_NUGGET = registerItem("aluminium_nugget", new Item(new Item.Settings()));
 
@@ -23,15 +24,18 @@ public class ModItems {
     public static final Item STEEL_INGOT = registerItem("steel_ingot", new Item(new Item.Settings()));
     public static final Item STEEL_NUGGET = registerItem("steel_nugget", new Item(new Item.Settings()));
 
+    public static final Item RAW_TIN = registerItem("raw_tin", new Item(new Item.Settings()));
     public static final Item TIN_INGOT = registerItem("tin_ingot", new Item(new Item.Settings()));
     public static final Item TIN_NUGGET = registerItem("tin_nugget", new Item(new Item.Settings()));
 
+    public static final Item RAW_TITANIUM = registerItem("raw_titanium", new Item(new Item.Settings()));
     public static final Item TITANIUM_INGOT = registerItem("titanium_ingot", new Item(new Item.Settings()));
     public static final Item TITANIUM_NUGGET = registerItem("titanium_nugget", new Item(new Item.Settings()));
 
     public static final Item PURPLE_GOLD_INGOT = registerItem("purple_gold_ingot", new Item(new Item.Settings()));
     public static final Item PURPLE_GOLD_NUGGET = registerItem("purple_gold_nugget", new Item(new Item.Settings()));
 
+    public static final Item RAW_ZINC = registerItem("raw_zinc", new Item(new Item.Settings()));
     public static final Item ZINC_INGOT = registerItem("zinc_ingot", new Item(new Item.Settings()));
     public static final Item ZINC_NUGGET = registerItem("zinc_nugget", new Item(new Item.Settings()));
 
@@ -44,6 +48,7 @@ public class ModItems {
         Moremetals.LOGGER.info("registering Mod Items for " + Moremetals.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+            entries.add(RAW_ALUMINIUM);
             entries.add(ALUMINIUM_INGOT);
             entries.add(ALUMINIUM_NUGGET);
             entries.add(BRASS_INGOT);
@@ -52,12 +57,15 @@ public class ModItems {
             entries.add(BRONZE_NUGGET);
             entries.add(STEEL_INGOT);
             entries.add(STEEL_NUGGET);
+            entries.add(RAW_TIN);
             entries.add(TIN_INGOT);
             entries.add(TIN_NUGGET);
+            entries.add(RAW_TITANIUM);
             entries.add(TITANIUM_INGOT);
             entries.add(TITANIUM_NUGGET);
             entries.add(PURPLE_GOLD_INGOT);
             entries.add(PURPLE_GOLD_NUGGET);
+            entries.add(RAW_ZINC);
             entries.add(ZINC_INGOT);
             entries.add(ZINC_NUGGET);
         });
