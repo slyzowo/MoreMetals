@@ -38,6 +38,12 @@ public class ModBlocks {
                     .requiresTool()
                     .sounds(BlockSoundGroup.METAL)
             ));
+    public static final Block STEEL_BLOCK = registerBlock("steel_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+            ));
     public static final Block TIN_BLOCK = registerBlock("tin_block",
             new Block(AbstractBlock.Settings.create()
                     .strength(4f)
@@ -69,9 +75,5 @@ public class ModBlocks {
 
     public static void registerModBlocks(){
         Moremetals.LOGGER.info("Registering Mod Blocks for " + Moremetals.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(ModBlocks.ALUMINIUM_BLOCK);
-        });
     }
 }

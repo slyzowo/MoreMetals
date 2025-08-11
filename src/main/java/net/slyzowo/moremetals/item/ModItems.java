@@ -46,28 +46,5 @@ public class ModItems {
 
     public static void registerModItems(){
         Moremetals.LOGGER.info("registering Mod Items for " + Moremetals.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(RAW_ALUMINIUM);
-            entries.add(ALUMINIUM_INGOT);
-            entries.add(ALUMINIUM_NUGGET);
-            entries.add(BRASS_INGOT);
-            entries.add(BRASS_NUGGET);
-            entries.add(BRONZE_INGOT);
-            entries.add(BRONZE_NUGGET);
-            entries.add(STEEL_INGOT);
-            entries.add(STEEL_NUGGET);
-            entries.add(RAW_TIN);
-            entries.add(TIN_INGOT);
-            entries.add(TIN_NUGGET);
-            entries.add(RAW_TITANIUM);
-            entries.add(TITANIUM_INGOT);
-            entries.add(TITANIUM_NUGGET);
-            entries.add(PURPLE_GOLD_INGOT);
-            entries.add(PURPLE_GOLD_NUGGET);
-            entries.add(RAW_ZINC);
-            entries.add(ZINC_INGOT);
-            entries.add(ZINC_NUGGET);
-        });
     }
 }
