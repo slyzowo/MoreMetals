@@ -1,8 +1,6 @@
 package net.slyzowo.moremetals.item;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -20,6 +18,10 @@ public class ModItems {
 
     public static final Item BRONZE_INGOT = registerItem("bronze_ingot", new Item(new Item.Settings()));
     public static final Item BRONZE_NUGGET = registerItem("bronze_nugget", new Item(new Item.Settings()));
+
+    public static final Item RAW_LITHIUM = registerItem("raw_lithium", new Item(new Item.Settings()));
+    public static final Item LITHIUM_INGOT = registerItem("lithium_ingot", new Item(new Item.Settings()));
+    public static final Item LITHIUM_NUGGET = registerItem("lithium_nugget", new Item(new Item.Settings()));
 
     public static final Item STEEL_INGOT = registerItem("steel_ingot", new Item(new Item.Settings()));
     public static final Item STEEL_NUGGET = registerItem("steel_nugget", new Item(new Item.Settings()));

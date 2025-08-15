@@ -1,10 +1,8 @@
 package net.slyzowo.moremetals.blocks;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -27,6 +25,12 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.METAL)
             ));
     public static final Block BRONZE_BLOCK = registerBlock("bronze_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+            ));
+    public static final Block LITHIUM_BLOCK = registerBlock("lithium_block",
             new Block(AbstractBlock.Settings.create()
                     .strength(4f)
                     .requiresTool()

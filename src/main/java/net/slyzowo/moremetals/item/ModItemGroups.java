@@ -31,6 +31,11 @@ public class ModItemGroups {
                         entries.add(ModItems.BRONZE_INGOT);
                         entries.add(ModItems.BRONZE_NUGGET);
 
+                        entries.add(ModBlocks.LITHIUM_BLOCK);
+                        entries.add(ModItems.LITHIUM_INGOT);
+                        entries.add(ModItems.RAW_LITHIUM);
+                        entries.add(ModItems.LITHIUM_NUGGET);
+
                         entries.add(ModBlocks.PURPLE_GOLD_BLOCK);
                         entries.add(ModItems.PURPLE_GOLD_INGOT);
                         entries.add(ModItems.PURPLE_GOLD_NUGGET);

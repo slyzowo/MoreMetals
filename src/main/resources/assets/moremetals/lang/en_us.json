@@ -14,6 +14,11 @@
   "item.moremetals.bronze_nugget": "Bronze Nugget",
   "block.moremetals.bronze_block": "Bronze Block",
 
+  "item.moremetals.lithium_ingot": "Lithium Ingot",
+  "item.moremetals.raw_lithium": "Raw lithium",
+  "item.moremetals.lithium_nugget": "Lithium Nugget",
+  "block.moremetals.lithium_block": "Lithium Block",
+
   "item.moremetals.steel_ingot": "Steel Ingot",
   "item.moremetals.steel_nugget": "Steel Nugget",
   "block.moremetals.steel_block": "Steel Block",
@@ -22,6 +27,11 @@
   "item.moremetals.raw_tin": "Raw Tin",
   "item.moremetals.tin_nugget": "Tin Nugget",
   "block.moremetals.tin_block": "Tin Block",
+
+  "item.moremetals.tungsten_ingot": "Tungsten Ingot",
+  "item.moremetals.raw_tungsten": "Raw Tungsten",
+  "item.moremetals.tungsten_nugget": "Tungsten Nugget",
+  "block.moremetals.tungsten_block": "Tungsten Block",
 
   "item.moremetals.titanium_ingot": "Titanium Ingot",
   "item.moremetals.raw_titanium": "Raw Titanium",
