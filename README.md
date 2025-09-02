@@ -30,7 +30,7 @@ Made in the Crafting Table
 the stats are the same as regular gold
 
 # Steel
-Smelted in a furnace
+Blasted in a furnace
 
 # Tin
 Found in the Nether
