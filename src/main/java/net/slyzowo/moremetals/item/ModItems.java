@@ -8,7 +8,6 @@ import net.slyzowo.moremetals.Moremetals;
 
 public class ModItems {
 
-
     public static final Item RAW_ALUMINIUM = registerItem("raw_aluminium", new Item(new Item.Settings()));
     public static final Item ALUMINIUM_INGOT = registerItem("aluminium_ingot", new Item(new Item.Settings()));
     public static final Item ALUMINIUM_NUGGET = registerItem("aluminium_nugget", new Item(new Item.Settings()));
@@ -33,6 +32,10 @@ public class ModItems {
     public static final Item RAW_TITANIUM = registerItem("raw_titanium", new Item(new Item.Settings()));
     public static final Item TITANIUM_INGOT = registerItem("titanium_ingot", new Item(new Item.Settings()));
     public static final Item TITANIUM_NUGGET = registerItem("titanium_nugget", new Item(new Item.Settings()));
+
+    public static final Item RAW_TUNGSTEN = registerItem("raw_tungsten", new Item(new Item.Settings()));
+    public static final Item TUNGSTEN_INGOT = registerItem("tungsten_ingot", new Item(new Item.Settings()));
+    public static final Item TUNGSTEN_NUGGET = registerItem("tungsten_nugget", new Item(new Item.Settings()));
 
     public static final Item PURPLE_GOLD_INGOT = registerItem("purple_gold_ingot", new Item(new Item.Settings()));
     public static final Item PURPLE_GOLD_NUGGET = registerItem("purple_gold_nugget", new Item(new Item.Settings()));

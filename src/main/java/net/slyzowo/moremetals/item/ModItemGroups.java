@@ -20,6 +20,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.ALUMINIUM_BLOCK);
                         entries.add(ModBlocks.ALUMINIUM_ORE);
+                        entries.add(ModBlocks.RAW_ALUMINIUM_BLOCK);
                         entries.add(ModItems.ALUMINIUM_INGOT);
                         entries.add(ModItems.RAW_ALUMINIUM);
                         entries.add(ModItems.ALUMINIUM_NUGGET);
@@ -34,6 +35,7 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.LITHIUM_BLOCK);
                         entries.add(ModBlocks.LITHIUM_ORE);
+                        entries.add(ModBlocks.RAW_LITHIUM_BLOCK);
                         entries.add(ModItems.LITHIUM_INGOT);
                         entries.add(ModItems.RAW_LITHIUM);
                         entries.add(ModItems.LITHIUM_NUGGET);
@@ -48,18 +50,28 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.TIN_BLOCK);
                         entries.add(ModBlocks.TIN_ORE);
+                        entries.add(ModBlocks.RAW_TIN_BLOCK);
                         entries.add(ModItems.TIN_INGOT);
                         entries.add(ModItems.RAW_TIN);
                         entries.add(ModItems.TIN_NUGGET);
 
                         entries.add(ModBlocks.TITANIUM_BLOCK);
                         entries.add(ModBlocks.TITANIUM_ORE);
+                        entries.add(ModBlocks.RAW_TITANIUM_BLOCK);
                         entries.add(ModItems.TITANIUM_INGOT);
                         entries.add(ModItems.RAW_TITANIUM);
                         entries.add(ModItems.TITANIUM_NUGGET);
 
+                        entries.add(ModBlocks.TUNGSTEN_BLOCK);
+                        entries.add(ModBlocks.TUNGSTEN_ORE);
+                        entries.add(ModBlocks.RAW_TUNGSTEN_BLOCK);
+                        entries.add(ModItems.TUNGSTEN_INGOT);
+                        entries.add(ModItems.RAW_TUNGSTEN);
+                        entries.add(ModItems.TUNGSTEN_NUGGET);
+
                         entries.add(ModBlocks.ZINC_BLOCK);
                         entries.add(ModBlocks.ZINC_ORE);
+                        entries.add(ModBlocks.RAW_ZINC_BLOCK);
                         entries.add(ModItems.ZINC_INGOT);
                         entries.add(ModItems.RAW_ZINC);
                         entries.add(ModItems.ZINC_NUGGET);

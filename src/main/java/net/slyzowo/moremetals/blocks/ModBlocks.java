@@ -3,6 +3,7 @@ package net.slyzowo.moremetals.blocks;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.PickaxeItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -24,6 +25,12 @@ public class ModBlocks {
                     .requiresTool()
                     .sounds(BlockSoundGroup.METAL)
             ));
+    public static final Block RAW_ALUMINIUM_BLOCK = registerBlock("raw_aluminium_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+            ));
     public static final Block BRASS_BLOCK = registerBlock("brass_block",
             new Block(AbstractBlock.Settings.create()
                     .strength(4f)
@@ -37,6 +44,12 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.METAL)
             ));
     public static final Block LITHIUM_BLOCK = registerBlock("lithium_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+            ));
+    public static final Block RAW_LITHIUM_BLOCK = registerBlock("raw_lithium_block",
             new Block(AbstractBlock.Settings.create()
                     .strength(4f)
                     .requiresTool()
@@ -66,6 +79,12 @@ public class ModBlocks {
                     .requiresTool()
                     .sounds(BlockSoundGroup.METAL)
             ));
+    public static final Block RAW_TIN_BLOCK = registerBlock("raw_tin_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+            ));
     public static final Block TIN_ORE = registerBlock("tin_ore",
             new Block(AbstractBlock.Settings.create()
                     .strength(4f)
@@ -78,13 +97,43 @@ public class ModBlocks {
                     .requiresTool()
                     .sounds(BlockSoundGroup.METAL)
             ));
+    public static final Block RAW_TITANIUM_BLOCK = registerBlock("raw_titanium_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+            ));
     public static final Block TITANIUM_ORE = registerBlock("titanium_ore",
             new Block(AbstractBlock.Settings.create()
                     .strength(4f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.METAL)
             ));
+    public static final Block TUNGSTEN_BLOCK = registerBlock("tungsten_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+            ));
+    public static final Block RAW_TUNGSTEN_BLOCK = registerBlock("raw_tungsten_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+            ));
+    public static final Block TUNGSTEN_ORE = registerBlock("tungsten_ore",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+            ));
     public static final Block ZINC_BLOCK = registerBlock("zinc_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+            ));
+    public static final Block RAW_ZINC_BLOCK = registerBlock("raw_zinc_block",
             new Block(AbstractBlock.Settings.create()
                     .strength(4f)
                     .requiresTool()
