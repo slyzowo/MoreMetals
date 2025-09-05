@@ -1,10 +1,11 @@
 {
   "itemgroup.moremetals.more_metals_items" : "More Metals",
 
+  "block.moremetals.aluminium_block": "Aluminium Block",
+  "block.moremetals.aluminium_ore": "Aluminium Ore",
   "item.moremetals.aluminium_ingot": "Aluminium Ingot",
   "item.moremetals.raw_aluminium": "Raw Aluminium",
   "item.moremetals.aluminium_nugget": "Aluminium Nugget",
-  "block.moremetals.aluminium_block": "Aluminium Block",
 
   "item.moremetals.brass_ingot": "Brass Ingot",
   "item.moremetals.brass_nugget": "Brass Nugget",
@@ -14,36 +15,41 @@
   "item.moremetals.bronze_nugget": "Bronze Nugget",
   "block.moremetals.bronze_block": "Bronze Block",
 
+  "block.moremetals.lithium_block": "Lithium Block",
+  "block.moremetals.lithium_ore": "Lithium Ore",
   "item.moremetals.lithium_ingot": "Lithium Ingot",
   "item.moremetals.raw_lithium": "Raw lithium",
   "item.moremetals.lithium_nugget": "Lithium Nugget",
-  "block.moremetals.lithium_block": "Lithium Block",
 
   "item.moremetals.steel_ingot": "Steel Ingot",
   "item.moremetals.steel_nugget": "Steel Nugget",
   "block.moremetals.steel_block": "Steel Block",
 
+  "block.moremetals.tin_block": "Tin Block",
+  "block.moremetals.tin_ore": "Tin Ore",
   "item.moremetals.tin_ingot": "Tin Ingot",
   "item.moremetals.raw_tin": "Raw Tin",
   "item.moremetals.tin_nugget": "Tin Nugget",
-  "block.moremetals.tin_block": "Tin Block",
 
+  "block.moremetals.tungsten_block": "Tungsten Block",
+  "block.moremetals.tungsten_ore": "Tungsten Ore",
   "item.moremetals.tungsten_ingot": "Tungsten Ingot",
   "item.moremetals.raw_tungsten": "Raw Tungsten",
   "item.moremetals.tungsten_nugget": "Tungsten Nugget",
-  "block.moremetals.tungsten_block": "Tungsten Block",
 
+  "block.moremetals.titanium_block": "Titanium Block",
+  "block.moremetals.titanium_ore": "Titanium Ore",
   "item.moremetals.titanium_ingot": "Titanium Ingot",
   "item.moremetals.raw_titanium": "Raw Titanium",
   "item.moremetals.titanium_nugget": "Titanium Nugget",
-  "block.moremetals.titanium_block": "Titanium Block",
 
   "item.moremetals.purple_gold_ingot": "Purple Gold Ingot",
   "item.moremetals.purple_gold_nugget": "Purple Gold Nugget",
   "block.moremetals.purple_gold_block": "Purple Gold Block",
 
+  "block.moremetals.zinc_block": "Zinc Block",
+  "block.moremetals.zinc_ore": "Zinc Ore",
   "item.moremetals.zinc_ingot": "Zinc Ingot",
   "item.moremetals.raw_zinc": "Raw Zinc",
-  "item.moremetals.zinc_nugget": "Zinc Nugget",
-  "block.moremetals.zinc_block": "Zinc Block"
+  "item.moremetals.zinc_nugget": "Zinc Nugget"
 }

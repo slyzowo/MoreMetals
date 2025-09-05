@@ -18,6 +18,12 @@ public class ModBlocks {
                     .requiresTool()
                     .sounds(BlockSoundGroup.METAL)
             ));
+    public static final Block ALUMINIUM_ORE = registerBlock("aluminium_ore",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+            ));
     public static final Block BRASS_BLOCK = registerBlock("brass_block",
             new Block(AbstractBlock.Settings.create()
                     .strength(4f)
@@ -31,6 +37,12 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.METAL)
             ));
     public static final Block LITHIUM_BLOCK = registerBlock("lithium_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+            ));
+    public static final Block LITHIUM_ORE = registerBlock("lithium_ore",
             new Block(AbstractBlock.Settings.create()
                     .strength(4f)
                     .requiresTool()
@@ -54,13 +66,31 @@ public class ModBlocks {
                     .requiresTool()
                     .sounds(BlockSoundGroup.METAL)
             ));
+    public static final Block TIN_ORE = registerBlock("tin_ore",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+            ));
     public static final Block TITANIUM_BLOCK = registerBlock("titanium_block",
             new Block(AbstractBlock.Settings.create()
                     .strength(4f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.METAL)
             ));
+    public static final Block TITANIUM_ORE = registerBlock("titanium_ore",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+            ));
     public static final Block ZINC_BLOCK = registerBlock("zinc_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+            ));
+    public static final Block ZINC_ORE = registerBlock("zinc_ore",
             new Block(AbstractBlock.Settings.create()
                     .strength(4f)
                     .requiresTool()

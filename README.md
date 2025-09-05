@@ -4,6 +4,7 @@ adds more metals to Minecraft because I got tired of the current ones.
 - Aluminium
 - Brass
 - Bronze
+- Platinum
 - Purple Gold
 - Steel
 - Tin
@@ -20,10 +21,10 @@ Made in the Crafting Table
 Made in the Crafting Table
 
 # Lithium
-Found in the OverWorld
+Found in the Overworld
 
 # Platinum
-Found in the OverWorld
+Found in the Overworld
 
 # Purple Gold
 Made in the Crafting Table
